@@ -1,0 +1,26 @@
+:root {
+  --color_1: #a24b14;
+  --color_2: #e48661;
+  --color_3: #ff8f56;
+  --color_4: #eae8e8;
+  --color_5: rgba(254, 237, 229, 1);
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: var(--color_2);
+  background-color: var(--color_4);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* i {
+  font-size: 2rem;
+  color: black;
+} */
