@@ -223,3 +223,25 @@ img {
   padding-left: 5rem;
   padding-right: 0;
 }
+
+.gallery {
+  padding: 5rem;
+  height: 100vh;
+  width: 100%;
+  /* background-color: var(--color_5); */
+}
+
+.gallery__images {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.gallery h1 {
+  color: var(--color_1);
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
