@@ -28,6 +28,7 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -83,13 +84,13 @@
           </p>
         </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
             <!-- <h1>השראה</h1> -->
         <div class="gallery__images">
             <div class="gallery__pic"><img src="/styles/images/gallery/gallery_1.jpg" alt=""></div>
         <div class="gallery__pic"><img src="/styles/images/gallery/gallery_2.jpg" alt=""></div>
         <div class="gallery__pic"><img src="/styles/images/gallery/gallery_3.jpg" alt=""></div>
-        <div class="gallery__pic"><img src="/styles/images/gallery/gallery_4.jpg" alt=""></div>
+        <!-- <div class="gallery__pic"><img src="/styles/images/gallery/gallery_4.jpg" alt=""></div> -->
         <div class="gallery__pic"><img src="/styles/images/gallery/gallery_5.jpg" alt=""></div>
         <div class="gallery__pic"><img src="/styles/images/gallery/gallery_6.jpg" alt=""></div>
         <div class="gallery__pic"><img src="/styles/images/gallery/gallery_7.jpg" alt=""></div>
@@ -97,8 +98,26 @@
         <div class="gallery__pic"><img src="/styles/images/gallery/gallery_9.jpg" alt=""></div>
         <div class="gallery__pic"><img src="/styles/images/gallery/gallery_10.jpg" alt=""></div>
         <div class="gallery__pic"><img src="/styles/images/gallery/gallery_11.jpg" alt=""></div>
-        <div class="gallery__pic"><img src="/styles/images/gallery/gallery_12.jpg" alt=""></div>
+        <!-- <div class="gallery__pic"><img src="/styles/images/gallery/gallery_12.jpg" alt=""></div> -->
         </div>
+    </section>
+    <section class="contact" id="contact" dir="rtl">
+        <div class="callback" >
+            <h2>:לתיאום פגישת ייעוץ</h2>
+            <form action="">
+                <label for="name"></label>
+                <input type="text" name="name" placeholder="שם:">
+                
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Email - לא חובה">
+                
+                <label for="phone"></label>
+                <input type="text" name="phone" placeholder="מספר טלפון">
+                
+                <input type="submit" value="send" class="btn">
+            </form>
+        </div>
+        <div class="right"></div>
     </section>
   </body>
 </html>
