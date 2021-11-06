@@ -226,6 +226,133 @@ img {
   padding-right: 0;
 }
 
+.anim {
+  height: 50vh;
+  width: 60vw;
+  background-color: var(--color_4);
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  animation: anim 7s infinite;
+}
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    background-color: var(--color_5);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    background-color: var(--color_5);
+  }
+}
+
+.sofa {
+  background: url(/styles/images/anim/sofa.png) no-repeat center center/ cover;
+  background-size: 70%;
+  position: absolute;
+  height: 60%;
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  transform: translateY(220px);
+  animation: sofa 7s infinite forwards 2s;
+}
+@keyframes sofa {
+  10% {
+    transform: translateY(-40px);
+  }
+  14% {
+    transform: translateY(0);
+  }
+  18% {
+    transform: translateY(-20px);
+  }
+  22% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.lamp {
+  background: url(/styles/images/anim/lamp.png) center center/ cover;
+  position: absolute;
+  height: 40%;
+  width: 20%;
+  top: 0;
+  left: 30%;
+  transform: translateY(-150px);
+  animation: lamp 7s infinite forwards 3.5s;
+}
+@keyframes lamp {
+  0% {
+    transform: rotate(90deg);
+  }
+  10% {
+    transform: rotate(0);
+    transform: translateY(20px);
+  }
+  15% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.pic {
+  background: url(/styles/images/anim/pic.png) no-repeat center center/ cover;
+  background-size: 120%;
+  position: absolute;
+  height: 50%;
+  width: 20%;
+  top: 10%;
+  right: 5%;
+  visibility: hidden;
+  transform: rotate(720deg);
+  animation: pic 7s infinite forwards 5s;
+}
+@keyframes pic {
+  15% {
+    visibility: visible;
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+.plant {
+  background: url(/styles/images/anim/plant.png) no-repeat center center/ cover;
+  background-size: 85%;
+  position: absolute;
+  height: 75%;
+  width: 20%;
+  bottom: 0;
+  right: 0;
+  animation: plant 7s infinite forwards 6s;
+  transform: scale(0);
+}
+@keyframes plant {
+  15% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.efrat {
+  background: url(/styles/images/small-sketh_logo.png) no-repeat center center/
+    cover;
+  position: absolute;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+}
+
 .gallery {
   padding: 5rem;
   height: 100vh;
@@ -311,7 +438,7 @@ img {
   letter-spacing: 2px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 800px) {
   body {
     font-size: 0.9rem;
   }
