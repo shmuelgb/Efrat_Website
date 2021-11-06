@@ -10,6 +10,7 @@
   cursor: pointer;
   display: inline-block;
   padding: 10px 30px;
+  /* padding: 0.6rem 1.9rem; */
   color: var(--color_2);
   background-color: var(--color_4);
   border: none;

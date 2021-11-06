@@ -186,6 +186,7 @@ img {
   height: 63vh;
   width: 100%;
   display: grid;
+
   grid-template-columns: repeat(3, 1fr);
   /* margin-top: 10%; */
   margin-bottom: 5rem;
@@ -265,29 +266,121 @@ img {
   height: 60vh;
   width: 100%;
   display: flex;
-  padding: 5rem;
+  justify-content: space-around;
+  padding: 4rem 0;
 }
 
-.callback {
+.contact__callback {
   display: flex;
   flex-direction: column;
+  /* padding: 0 1rem; */
+  padding: 1rem 3rem;
 }
 
-.callback label {
+.contact__callback label {
   display: inline-block;
   margin-bottom: 5px;
 }
-.callback input {
+.contact__callback input {
   width: 100%;
   padding: 1rem;
   border: 1px solid lightgray;
 }
 
-.right {
-  height: 100%;
-  width: 50%;
+.contact__callback .btn {
+  background-color: var(--color_5);
+  padding: 12px 0px;
+  margin-top: 20px;
 }
 
-.callback > .btn {
-  background-color: var(--color_2);
+.contact__pic {
+  height: 100%;
+  width: 30%;
+  align-self: center;
+  padding: 0 2rem;
+}
+
+.contact__pic img {
+  /* border: solid 2px rgb(141, 144, 145); */
+  border-radius: 50%;
+}
+
+.contact__pic h1 {
+  text-align: center;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 550px) {
+  body {
+    font-size: 0.9rem;
+  }
+  .nav__logo-name {
+    display: none;
+  }
+
+  .nav__logo-sketch {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: space-around;
+    height: 50px;
+  }
+
+  .content__img {
+    background-size: 450px;
+  }
+
+  .content .btn {
+    padding: 8px 20px;
+  }
+
+  .about-tab {
+    height: 63vh;
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 5rem;
+  }
+
+  .about-tab__img {
+    height: 33vh;
+    width: 100%;
+    padding: 2% 7%;
+  }
+
+  .about-tab__text {
+    padding: 2% 7%;
+  }
+
+  .design > .about-tab__text {
+    padding: 2% 7%;
+  }
+
+  .gallery {
+    padding: 20px 15px;
+    height: auto;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact__pic {
+    height: 40vh;
+    width: 100%;
+    align-self: center;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact__callback {
+    height: 40vh;
+  }
 }
