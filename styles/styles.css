@@ -455,8 +455,21 @@ img {
     height: 50px;
   }
 
-  .content__img {
-    background-size: 450px;
+  .contact__pic {
+    height: 100%;
+    width: 30%;
+    align-self: center;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact__pic img {
+    /* border: solid 2px rgb(141, 144, 145); */
+    border-radius: 50%;
+    width: 350px;
   }
 
   .content .btn {
@@ -484,6 +497,12 @@ img {
 
   .design > .about-tab__text {
     padding: 2% 7%;
+  }
+
+  .anim {
+    margin-top: 7rem;
+    height: 50vh;
+    width: 80vw;
   }
 
   .gallery {
