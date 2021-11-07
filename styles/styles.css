@@ -306,7 +306,7 @@ img {
 }
 .pic {
   background: url(/styles/images/anim/pic.png) no-repeat center center/ cover;
-  background-size: 120%;
+  background-size: 110%;
   position: absolute;
   height: 50%;
   width: 20%;
@@ -348,7 +348,7 @@ img {
   background: url(/styles/images/small-sketh_logo.png) no-repeat center center/
     cover;
   position: absolute;
-  background-size: 100%;
+  background-size: 90%;
   height: 100%;
   width: 100%;
 }
