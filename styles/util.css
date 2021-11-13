@@ -6,6 +6,10 @@
   --color_5: rgba(254, 237, 229, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn {
   cursor: pointer;
   display: inline-block;
