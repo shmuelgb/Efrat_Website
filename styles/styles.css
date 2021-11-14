@@ -368,6 +368,10 @@ img {
   grid-gap: 1rem;
 }
 
+.gallery__pic:nth-child(11) {
+  grid-column: 5 / span 2;
+}
+
 .gallery h1 {
   color: var(--color_1);
   font-size: 2.5rem;
