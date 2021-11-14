@@ -211,6 +211,7 @@ img {
 .about-tab__text h1 {
   font-size: 2.5rem;
   padding-bottom: 1rem;
+  margin: 0;
 }
 .about-tab__text h2 {
   padding-bottom: 2rem;
@@ -536,5 +537,6 @@ footer a:hover {
 
   .contact__callback {
     height: 40vh;
+    text-align: center;
   }
 }
